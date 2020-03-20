@@ -17,7 +17,7 @@ namespace TechFabricSln.Test
             Thread.Sleep(10000);
 
             string Windows_text = driver.FindElement(By.Id("shellmenu_1")).Text;
-            Assert.AreEqual("Windows", Windows_text);
+            Assert.AreEqual("Windows11", Windows_text);
 
             driver.Quit();
         }
